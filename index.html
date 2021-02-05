@@ -1,0 +1,93 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+    <head>
+        <!-- Заголовок страницы в браузере -->
+        <title>Serhii Lytvynenko</title>
+        <!-- Адаптив -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <!-- Подключаем CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- Кодировка страницы -->
+        <meta charset="UTF-8">
+        <!-- fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+    <div class="bgBuble">
+    <object class="bgBuble_svg" type="image/svg+xml" data="./img/svg/bubleMain.svg">
+    </object>
+    </div>
+    <div class="bgBuble2">
+    <object class="bgBuble_svg2" type="image/svg+xml" data="./img/svg/bubleMain2.svg">
+    </object>
+    </div>
+
+    <main>
+        <div class="fullScreen">
+            <div class="fullScreen_content">
+                <div class="fullScreen_content_contentSide">
+                    <h1> <span>Hi,</span> I'm Serhii Lytvynenko </h1><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi in veritatis eligendi doloremque labore quis neque quibusdam dolorum asperiores commodi.</p>
+                </div>
+                <div class="fullScreen_content_imgSide">
+                    <object class="me_svg" type="image/svg+xml" data="./img/svg/meHand.svg"></object>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="fullScreen">
+            <div class="fullScreen_content">
+                <div class="fullScreen_content_imgSide">
+                    <object class="me_svg" type="image/svg+xml" data="./img/svg/meSitting.svg"></object>
+                </div>
+                <div class="fullScreen_content_contentSide">
+                    <h1> A few words about me</h1><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi in veritatis eligendi doloremque labore quis neque quibusdam dolorum asperiores commodi. lorem500</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="works">
+           <h2>Several of my projects</h2>
+            <div class="works_block">
+                <img src="./img/prekrasnoe.png" alt="">
+                <p>portfolio</p>
+                <a href=""></a>
+            </div>
+        </div>
+
+
+        <div class="fullScreen_content_contentSide form">
+            <form method="POST" action="https://formspree.io/sergey159123@ukr.net">
+            <div class="group">
+              <input type="text" required>
+              <span class="bar"></span>
+              <label>Ваше имя</label>
+            </div>
+            <div class="group">
+              <input type="email" required>
+              <span class="bar"></span>
+              <label>Номер телефона</label>
+            </div>
+            <div class="group">
+              <input type="text" required>
+              <span class="bar"></span>
+              <label>24+25=</label>
+            </div>
+            <div class="group">
+              <textarea type="text" required></textarea>
+              <span class="bar"></span>
+              <label>Ваше сообщение</label>
+            </div>
+            <input class="feedback_button" type="submit" value="Send">
+            </form>
+            <object class="me_svg" type="image/svg+xml" data="./img/svg/me.svg"></object>
+        </div>
+    </main>
+    </body>
+</html>
