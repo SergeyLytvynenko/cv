@@ -1,0 +1,140 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+    <head>
+        <!-- Заголовок страницы в браузере -->
+        <title>Serhii Lytvynenko</title>
+        <!-- Адаптив -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <!-- Подключаем CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- Кодировка страницы -->
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/svg" href="./img/svg/fav.svg"/>
+        <!-- fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+    <div class="bubles bgBuble1">
+    <object class="bgBuble_svg" type="image/svg+xml" data="./img/svg/bubleMain.svg">
+    </object>
+    </div>
+    <div class="bubles bgBuble2">
+    <object class="bgBuble_svg_right" type="image/svg+xml" data="./img/svg/bubleMain2.svg">
+    </object>
+    </div>
+    <div class="bubles bgBuble3">
+    <object class="bgBuble_svg" type="image/svg+xml" data="./img/svg/bubleMain3.svg">
+    </object>
+    </div>
+    <div class="bubles bgBuble4">
+    <object class="bgBuble_svg_right" type="image/svg+xml" data="./img/svg/bubleMain4.svg">
+    </object>
+    </div>
+    <div class="bubles bgBuble5">
+    <object class="bgBuble_svg_right" type="image/svg+xml" data="./img/svg/bubleMain5.svg">
+    </object>
+    </div>
+
+    <main>
+        <div class="fullScreen">
+            <div class="fullScreen_content">
+                <div class="fullScreen_content_contentSide">
+                    <h1> <span>Hi,</span> I'm Serhii Lytvynenko </h1><br>
+                    <p>Frontend developer. I believe that the site is a work of art that evokes emotions and pleases the eye, just like good music or a painting.</p>
+                </div>
+                <div class="fullScreen_content_imgSide">
+                    <object class="me_svg" type="image/svg+xml" data="./img/svg/meHand.svg"></object>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="fullScreen">
+            <div class="fullScreen_content change_direction">
+                <div class="fullScreen_content_imgSide">
+                    <object class="me_svg" type="image/svg+xml" data="./img/svg/meSitting.svg"></object>
+                </div>
+                <div class="fullScreen_content_contentSide">
+                    <h2> A few words about me</h2><br>
+                    <p>I'm frontend developer with over 3 years of experience in designing, developing and supporting websites. My skills: HTML, SCSS, JS, SQL, Python, Adobe Photoshop, Adobe Illustrator.Also i am constantly learning new technologies, languages, modern libraries and frameworks.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="works">
+           <h2>Several of my projects</h2>
+           <a href="http://prekrasnoe.com.ua/">
+                <div class="works_block">
+                    <img src="./img/prekrasnoe.png" alt="">
+                    <p>Prekrasnoe</p>
+                </div>
+            </a>
+
+            <a href="http://bitdance.com.ua/">
+                <div class="works_block">
+                    <img src="./img/bitdance.png" alt="">
+                    <p>BitDance</p>
+                </div>
+            </a>
+
+
+            <a href="./shopno/index.html">
+                <div class="works_block">
+                    <img src="./img/shopno.png" alt="">
+                    <p>Shopno</p>
+                </div>
+            </a>
+
+
+            <a href="./bicykles/index.html">
+                <div class="works_block">
+                    <img src="./img/bicycles.png" alt="">
+                    <p>Bicykles</p>
+                </div>
+            </a>
+
+
+            <a href="./kingly/index.html">
+                <div class="works_block">
+                    <img src="./img/kingly.png" alt="">
+                    <p>Kingly</p>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="fullScreen_content_contentSide form">
+
+            <form method="POST" action="https://formspree.io/mbjpbzjr">
+            <h2> Welcome to contact me</h2>
+            <div class="group">
+              <input name="Name" type="text" required>
+              <span class="bar"></span>
+              <label>Name</label>
+            </div>
+            <div class="group">
+              <input name="Email" type="text" required>
+              <span class="bar"></span>
+              <label>E-mail</label>
+            </div>
+            <div class="group">
+              <input name="Phone" type="text" required>
+              <span class="bar"></span>
+              <label>Phone number</label>
+            </div>
+            <div class="group">
+              <textarea name="Message" type="text" required></textarea>
+              <span class="bar"></span>
+              <label>Message</label>
+            </div>
+            <input class="feedback_button" type="submit" value="Send">
+            </form>
+            <object class="me_svg" type="image/svg+xml" data="./img/svg/me.svg"></object>
+        </div>
+    </main>
+    </body>
+</html>
