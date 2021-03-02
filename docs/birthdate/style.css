@@ -1,0 +1,29 @@
+body {
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    height: 600px;
+}
+canvas {
+    padding:0;
+    margin:0;
+}
+div.btnbg {
+    position:fixed;
+    left:0;
+    top:0;
+}
+.title{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'Domine', serif;
+    color:#dbb7b7;
+    font-size: 150px;
+    text-align: center;
+}
